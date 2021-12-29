@@ -1,0 +1,18 @@
+@keyframes App-led-slide {
+    from {
+      transform: translateX(-100vw)
+    }
+    to {
+      transform: translateX(100vw)
+    }
+  }
+
+@media (prefers-reduced-motion: no-preference) {
+    .bottomLedStringDiv{
+        animation: App-led-slide infinite 8s linear;
+    }
+}
+
+.bottomLedStringDiv{
+    pointer-events: none;
+}

@@ -9,6 +9,8 @@ import secondText from './../../../sixth-block/TEXT02-BLC06@2x.png'
 import thirdText from './../../../sixth-block/TEXT03-BLC06@2x.png'
 import fourthText from './../../../sixth-block/TEXT04-BLC06.png'
 
+import './SixthBlock.css';
+
 import { useState, useEffect } from 'react';
 
 function SixthBlock() {
@@ -63,6 +65,7 @@ function SixthBlock() {
                 >
                 <img 
                     src={ledTextBanner} 
+                    className='bottomLedStringDiv'
                     style={{
                         pointerEvents: "none",
                         width: width,

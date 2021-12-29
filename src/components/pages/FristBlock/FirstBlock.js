@@ -1,6 +1,7 @@
 import React from 'react'
 import firstBackground from './../../../first-block/FUNDO-TELA01@2x.png'
 import ledBar from './../../../first-block/FUNDO-TELA02@2x.png'
+import ledString from './../../../first-block/FUNDO-TELA03@2x.png'
 
 import { useState, useEffect } from 'react';
 
@@ -46,6 +47,18 @@ function FirstBlock() {
                 }}
             >
                 <img src={ledBar} style={{
+                        width: width,
+                    }} alt="BullsCryptoLed" 
+                />
+            </div>
+
+            <div
+                id="ledStringDiv"
+                style={{
+                    marginTop: -ledDivHeight
+                }}
+            >
+                <img src={ledString} style={{
                         width: width,
                     }} alt="BullsCryptoLed" 
                 />

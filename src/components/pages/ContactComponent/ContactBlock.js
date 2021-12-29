@@ -29,7 +29,9 @@ function ContactBlock() {
                 position: "absolute",
                 justifyContent: "space-between"
             }}>
-                <div>
+                <div
+                    onClick={()=> window.open("https://discord.gg/Jq2QcmH2", "_blank")}
+                >
                     <img 
                         src={discord} 
                         style={{
@@ -39,7 +41,9 @@ function ContactBlock() {
                         alt="BullsCryptoDiscord" 
                     />
                 </div>
-                <div>
+                <div
+                    onClick={()=> window.open("https://twitter.com/bullscryptoNFT?s=20", "_blank")}
+                >
                     <img 
                         src={twitter} 
                         style={{
@@ -50,7 +54,9 @@ function ContactBlock() {
                         alt="BullsCryptoTwitter" 
                     />
                 </div>
-                <div>
+                <div
+                    onClick={()=> window.open("https://t.me/bullscryptochannel", "_blank")}
+                >
                     <img 
                         src={telegram} 
                         style={{

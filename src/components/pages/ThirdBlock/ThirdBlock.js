@@ -9,23 +9,15 @@ import { useState, useEffect } from 'react';
 function ThirdBlock() {
     const [width, setWidth] = useState(window.innerWidth)
     const [neroDivHeight, setNeroDivHeight] = useState(0)
-    const [statusDivHeight, setStatusDivHeight] = useState(0)
-
 
     useEffect(() => {
         window.addEventListener('load', () => {
             var updatedHeight = document.getElementById("neroDiv").clientHeight
-            console.log(updatedHeight)
             setNeroDivHeight(updatedHeight)
-
-            var updatedStatusHeight = document.getElementById("statusDiv").clientHeight
-            console.log(updatedStatusHeight)
-            setStatusDivHeight(updatedStatusHeight)
         });
         window.addEventListener('resize', () => {
             setWidth(window.innerWidth)
             var updatedHeight = document.getElementById("neroDiv").clientHeight
-            console.log(updatedHeight)
             setNeroDivHeight(updatedHeight)
         });
       });

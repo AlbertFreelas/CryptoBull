@@ -13,13 +13,11 @@ function SecondBlock() {
     useEffect(() => {
         window.addEventListener('load', () => {
             var updatedHeight = document.getElementById("santaBullDiv").clientHeight
-            console.log(updatedHeight)
             setSantaBullDivHeight(updatedHeight)
         });
         window.addEventListener('resize', () => {
             setWidth(window.innerWidth)
             var updatedHeight = document.getElementById("santaBullDiv").clientHeight
-            console.log(updatedHeight)
             setSantaBullDivHeight(updatedHeight)
         });
       });

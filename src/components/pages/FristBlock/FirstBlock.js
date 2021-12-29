@@ -13,13 +13,11 @@ function FirstBlock() {
     useEffect(() => {
         window.addEventListener('load', () => {
             var updatedHeight = document.getElementById("ledDiv").clientHeight
-            console.log(updatedHeight)
             setLedDivHeight(updatedHeight)
         });
         window.addEventListener('resize', () => {
             setWidth(window.innerWidth)
             var updatedHeight = document.getElementById("ledDiv").clientHeight
-            console.log(updatedHeight)
             setLedDivHeight(updatedHeight)
         });
       });

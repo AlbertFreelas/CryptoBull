@@ -51,7 +51,7 @@ function FourthBlock() {
                 <img 
                     src={vacinesBackground} 
                     style={{
-                        width: width * 0.75,
+                        width: width * 0.7,
                         marginTop: "2%"
                     }} 
                     alt="BullsCryptoVacinesBackground" 
@@ -59,17 +59,16 @@ function FourthBlock() {
             </div>
 
             <div
-                id='vacinesTextDiv'
                 style={{
                     marginTop: 0.9 * -vacineBackgroundDivHeight
                 }}>
                 <img 
                     src={vacinesText} 
                     style={{
-                        width: width * 0.32,
-                        marginRight: "42%",
+                        width: width * 0.3,
+                        marginRight: "37%",
                     }} 
-                    alt="BullsCryptoVacinesBackground" 
+                    alt="BullsCryptoVacinesText" 
                 />
             </div>
 
@@ -78,10 +77,10 @@ function FourthBlock() {
                     src={text} 
                     style={{
                         width: width * 0.6,
-                        marginTop: "7%",
+                        marginTop: "5%",
                         marginRight: "5%",
                     }} 
-                    alt="BullsCryptoVacinesBackground" 
+                    alt="BullsCryptoVacinesBottomText" 
                 />
             </div>
 

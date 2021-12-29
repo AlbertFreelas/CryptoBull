@@ -33,6 +33,7 @@ function ContactBlock() {
                     <img 
                         src={discord} 
                         style={{
+                            pointerEvents: "none",
                             width: width * 0.05
                         }} 
                         alt="BullsCryptoDiscord" 
@@ -42,6 +43,7 @@ function ContactBlock() {
                     <img 
                         src={twitter} 
                         style={{
+                            pointerEvents: "none",
                             marginTop: "50%",
                             width: width * 0.05
                         }} 
@@ -52,6 +54,7 @@ function ContactBlock() {
                     <img 
                         src={telegram} 
                         style={{
+                            pointerEvents: "none",
                             marginTop: "50%",
                             width: width * 0.05
                         }} 

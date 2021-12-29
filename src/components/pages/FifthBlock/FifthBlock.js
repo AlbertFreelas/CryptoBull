@@ -36,6 +36,7 @@ function FifthBlock() {
                 <img 
                     src={banner} 
                     style={{
+                        pointerEvents: "none",
                         width: width * 0.65,
                         marginTop: "3%"
                     }} 
@@ -47,6 +48,7 @@ function FifthBlock() {
                 <img 
                     src={investitorsBulls} 
                     style={{
+                        pointerEvents: "none",
                         width: width * 0.65,
                         marginTop: "8%"
                     }} 
@@ -58,6 +60,7 @@ function FifthBlock() {
                 <img 
                     src={soon} 
                     style={{
+                        pointerEvents: "none",
                         width: width * 0.07,
                         marginTop: "3%",
                         marginLeft: "58%"

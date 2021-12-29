@@ -47,6 +47,7 @@ function SixthBlock() {
                 <img 
                     src={ledBanner} 
                     style={{
+                        pointerEvents: "none",
                         width: width,
                         marginTop: "3%"
                     }} 
@@ -63,6 +64,7 @@ function SixthBlock() {
                 <img 
                     src={ledTextBanner} 
                     style={{
+                        pointerEvents: "none",
                         width: width,
                     }} 
                     alt="BullsCryptoLedBottom" 
@@ -73,6 +75,7 @@ function SixthBlock() {
                 <img 
                     src={background} 
                     style={{
+                        pointerEvents: "none",
                         width: width,
                     }} 
                     alt="BullsCryptoRoadMapBackground" 
@@ -87,6 +90,7 @@ function SixthBlock() {
                     <img 
                         src={baner} 
                         style={{
+                            pointerEvents: "none",
                             width: width * 0.35,
                             marginTop: "20%",
                             marginLeft: "13%"
@@ -103,6 +107,7 @@ function SixthBlock() {
                     <img 
                         src={road} 
                         style={{
+                            pointerEvents: "none",
                             width: width * 0.88,
                             marginLeft: "10%"
                         }} 
@@ -115,6 +120,7 @@ function SixthBlock() {
                         <img 
                             src={firstText} 
                             style={{
+                                pointerEvents: "none",
                                 width: width * 0.2,
                                 marginLeft: "50%"
                             }} 
@@ -125,6 +131,7 @@ function SixthBlock() {
                         <img 
                             src={secondText} 
                             style={{
+                                pointerEvents: "none",
                                 width: width * 0.25,
                                 marginLeft: "1.5%"
                             }} 
@@ -136,6 +143,7 @@ function SixthBlock() {
                         <img 
                             src={thirdText} 
                             style={{
+                                pointerEvents: "none",
                                 width: width * 0.27,
                                 marginLeft: "30%"
                             }} 
@@ -147,6 +155,7 @@ function SixthBlock() {
                         <img 
                             src={fourthText} 
                             style={{
+                                pointerEvents: "none",
                                 width: width * 0.1,
                                 marginLeft: "5%"
                             }} 

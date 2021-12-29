@@ -32,6 +32,7 @@ function SecondBlock() {
                 <img 
                     src={wellcome} 
                     style={{
+                        pointerEvents: "none",
                         width: width * 0.6,
                         marginLeft: "10%",
                         marginRight: "10%",
@@ -44,6 +45,7 @@ function SecondBlock() {
                 <img 
                     src={text} 
                     style={{
+                        pointerEvents: "none",
                         width: width * 0.56,
                         marginLeft: "12%",
                         marginRight: "12%",
@@ -56,6 +58,7 @@ function SecondBlock() {
                 <img 
                     src={box} 
                     style={{
+                        pointerEvents: "none",
                         width: width * 0.6,
                         marginLeft: "10%",
                         marginRight: "10%",
@@ -72,6 +75,7 @@ function SecondBlock() {
                 <img 
                     src={santaBull} 
                     style={{
+                        pointerEvents: "none",
                         width: width * 0.22,
                         marginLeft: "55%",
 

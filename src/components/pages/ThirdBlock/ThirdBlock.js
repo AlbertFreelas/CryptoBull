@@ -32,6 +32,7 @@ function ThirdBlock() {
                 <img 
                     src={nft} 
                     style={{
+                        pointerEvents: "none",
                         width: width * 0.6,
                         marginLeft: "10%",
                         marginRight: "10%",
@@ -44,6 +45,7 @@ function ThirdBlock() {
                 <img 
                     src={descText} 
                     style={{
+                        pointerEvents: "none",
                         width: width * 0.6,
                         marginLeft: "14%",
                         marginTop: "2.5%"
@@ -57,6 +59,7 @@ function ThirdBlock() {
                 <img 
                     src={status} 
                     style={{
+                        pointerEvents: "none",
                         width: width * 0.21,
                         marginLeft: "35%",
                         marginTop: "2%"
@@ -70,6 +73,7 @@ function ThirdBlock() {
                 <img 
                     src={statusText} 
                     style={{
+                        pointerEvents: "none",
                         width: width * 0.3,
                         marginLeft: "38%",
                         marginTop: "2%"
@@ -86,6 +90,7 @@ function ThirdBlock() {
                 <img 
                     src={nero} 
                     style={{
+                        pointerEvents: "none",
                         width: width * 0.32,
                         marginRight: "30%",
                     }} 

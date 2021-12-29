@@ -39,6 +39,7 @@ function FourthBlock() {
                 <img 
                     src={vacines} 
                     style={{
+                        pointerEvents: "none",
                         width: width * 0.3,
                         marginTop: "3%"
                     }} 
@@ -51,6 +52,7 @@ function FourthBlock() {
                 <img 
                     src={vacinesBackground} 
                     style={{
+                        pointerEvents: "none",
                         width: width * 0.7,
                         marginTop: "2%"
                     }} 
@@ -65,6 +67,7 @@ function FourthBlock() {
                 <img 
                     src={vacinesText} 
                     style={{
+                        pointerEvents: "none",
                         width: width * 0.3,
                         marginRight: "37%",
                     }} 
@@ -76,6 +79,7 @@ function FourthBlock() {
                 <img 
                     src={text} 
                     style={{
+                        pointerEvents: "none",
                         width: width * 0.6,
                         marginTop: "5%",
                     }} 

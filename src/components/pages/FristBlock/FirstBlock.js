@@ -33,6 +33,7 @@ function FirstBlock() {
                     src={firstBackground} 
                     style={{
                         width: width,
+                        pointerEvents: "none"
                     }} 
                     alt="BullsCryptoBackground" 
                 />
@@ -46,6 +47,7 @@ function FirstBlock() {
             >
                 <img src={ledBar} style={{
                         width: width,
+                        pointerEvents: "none"
                     }} alt="BullsCryptoLed" 
                 />
             </div>
@@ -58,6 +60,7 @@ function FirstBlock() {
             >
                 <img src={ledString} style={{
                         width: width,
+                        pointerEvents: "none"
                     }} alt="BullsCryptoLed" 
                 />
             </div>

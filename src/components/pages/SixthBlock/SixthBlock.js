@@ -80,6 +80,7 @@ function SixthBlock() {
                     style={{
                         pointerEvents: "none",
                         width: width,
+                        marginTop: "-0.7%"
                     }} 
                     alt="BullsCryptoRoadMapBackground" 
                 />

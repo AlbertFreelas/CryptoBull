@@ -9,6 +9,8 @@ import secondText from './../../../sixth-block/TEXT02-BLC06@2x.png'
 import thirdText from './../../../sixth-block/TEXT03-BLC06@2x.png'
 import fourthText from './../../../sixth-block/TEXT04-BLC06.png'
 
+import ScrollAnimation from 'react-animate-on-scroll';
+
 import './SixthBlock.css';
 
 import { useState, useEffect } from 'react';
@@ -120,17 +122,22 @@ function SixthBlock() {
                 </div>
 
                 <div>
+                <ScrollAnimation animateIn='fadeIn'>
                     <div style={{marginTop: 0.8 *  -roadDivHeight}}>
                         <img 
-                            src={firstText} 
+                            src={firstText}
+                            className='firstText'
                             style={{
                                 pointerEvents: "none",
                                 width: width * 0.2,
                                 marginLeft: "50%"
+                                
                             }} 
                             alt="BullsCryptoRoad" 
                         />
                     </div>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn='fadeIn'>
                     <div style={{marginTop: 0.05 * roadDivHeight}}>
                         <img 
                             src={secondText} 
@@ -142,7 +149,8 @@ function SixthBlock() {
                             alt="BullsCryptoRoad" 
                         />
                     </div>
-
+                </ScrollAnimation>
+                <ScrollAnimation animateIn='fadeIn'>
                     <div style={{marginTop: 0.08 * roadDivHeight}}>
                         <img 
                             src={thirdText} 
@@ -154,7 +162,8 @@ function SixthBlock() {
                             alt="BullsCryptoRoad" 
                         />
                     </div>
-
+                </ScrollAnimation>
+                <ScrollAnimation animateIn='fadeIn'>
                     <div style={{marginTop: 0.088 * roadDivHeight}}>
                         <img 
                             src={fourthText} 
@@ -166,9 +175,8 @@ function SixthBlock() {
                             alt="BullsCryptoRoad" 
                         />
                     </div>
-
+                </ScrollAnimation>
                 </div>
-
             </div>
         </div>
     )

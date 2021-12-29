@@ -7,12 +7,27 @@
     }
   }
 
+  @keyframes App-first-slide {
+    from {
+      transform: translateX(100vw)
+    }
+    to {
+      transform: translateX(-0.5vw)
+    }
+  }
+
+
 @media (prefers-reduced-motion: no-preference) {
     .bottomLedStringDiv{
         animation: App-led-slide infinite 8s linear;
     }
+
 }
 
 .bottomLedStringDiv{
+    pointer-events: none;
+}
+
+.firstText {
     pointer-events: none;
 }

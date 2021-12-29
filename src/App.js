@@ -11,6 +11,9 @@ import ContactBlock from './components/pages/ContactComponent/ContactBlock';
 function App() {
   return (
     <div className="App">
+      <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
+      </head>
       <body>
       <ContactBlock/>
       <FirstBlock/>

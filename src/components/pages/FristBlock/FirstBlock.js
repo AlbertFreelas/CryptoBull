@@ -83,7 +83,7 @@ function FirstBlock() {
                         width: 0.09 * width,
                         transform: "rotate(-4deg)",
                         marginTop: "-8.3%",
-                        marginLeft: "-12.5%",
+                        marginLeft: "-12.4%",
                         position: "absolute",
                         pointerEvents: "none"
                     }} alt="BullsCryptoArm" 

@@ -4,6 +4,8 @@ import text from './../../../second-block/TEXTO01-BLC02@2x.png'
 import box from './../../../second-block/IMG01-BLC02@2x.png' 
 import santaBull from './../../../second-block/IMG02-BLC02@2x.png' 
 
+import ScrollAnimation from 'react-animate-on-scroll';
+
 import { useState, useEffect } from 'react';
 
 function SecondBlock() {
@@ -67,6 +69,7 @@ function SecondBlock() {
                     alt="BullsCryptoBox" 
                 />
             </div>
+        <ScrollAnimation animateIn='fadeIn'>
             <div
                 id="santaBullDiv"
                 style={{
@@ -83,6 +86,7 @@ function SecondBlock() {
                     alt="BullsCryptoSantaBull" 
                 />
             </div>
+            </ScrollAnimation>
         </div>
     )
 }

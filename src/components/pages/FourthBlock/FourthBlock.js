@@ -78,7 +78,6 @@ function FourthBlock() {
                     style={{
                         width: width * 0.6,
                         marginTop: "5%",
-                        marginRight: "5%",
                     }} 
                     alt="BullsCryptoVacinesBottomText" 
                 />

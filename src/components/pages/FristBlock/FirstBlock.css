@@ -1,0 +1,18 @@
+@keyframes App-logo-spin {
+    from {
+      transform: translateX(-100vw)
+    }
+    to {
+      transform: translateX(100vw)
+    }
+  }
+
+@media (prefers-reduced-motion: no-preference) {
+    .ledStringDiv{
+        animation: App-logo-spin infinite 8s linear;
+    }
+}
+
+.ledStringDiv{
+    pointer-events: none;
+}

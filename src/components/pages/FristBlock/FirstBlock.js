@@ -3,6 +3,8 @@ import firstBackground from './../../../first-block/FUNDO-TELA01@2x.png'
 import ledBar from './../../../first-block/FUNDO-TELA02@2x.png'
 import ledString from './../../../first-block/FUNDO-TELA03@2x.png'
 
+import './FirstBlock.css';
+
 import { useState, useEffect } from 'react';
 
 function FirstBlock() {
@@ -58,10 +60,13 @@ function FirstBlock() {
                     marginTop: -ledDivHeight
                 }}
             >
-                <img src={ledString} style={{
+                <img
+                    className='ledStringDiv' 
+                    src={ledString} 
+                    style={{
                         width: width,
                         pointerEvents: "none"
-                    }} alt="BullsCryptoLed" 
+                    }} alt="BullsCryptoLedText" 
                 />
             </div>
 

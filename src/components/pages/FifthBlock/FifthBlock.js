@@ -30,6 +30,8 @@ function FifthBlock() {
                 flexDirection: "column",
                 flex: "auto",
             }}>
+            
+
             <div>
                 <img 
                     src={banner} 
@@ -37,7 +39,7 @@ function FifthBlock() {
                         width: width * 0.65,
                         marginTop: "3%"
                     }} 
-                    alt="BullsCryptoVacines" 
+                    alt="BullsCryptoInvestitors" 
                 />
             </div>
 
@@ -46,9 +48,9 @@ function FifthBlock() {
                     src={investitorsBulls} 
                     style={{
                         width: width * 0.65,
-                        marginTop: "8%"
+                        marginTop: "4%"
                     }} 
-                    alt="BullsCryptoVacines" 
+                    alt="BullsCryptoInvestorsBull" 
                 />
             </div>
 
@@ -61,23 +63,7 @@ function FifthBlock() {
                         marginLeft: "58%"
 
                     }} 
-                    alt="BullsCryptoVacines" 
-                />
-            </div>
-
-            <div
-                id="bearDiv"
-                style={{
-                    marginTop: 0.9 * -bearDivHeight
-                }}
-                >
-                <img 
-                    src={bear} 
-                    style={{
-                        width: width * 0.12,
-                        marginLeft: "85%"
-                    }} 
-                    alt="BullsCryptoVacines" 
+                    alt="BullsCryptoSoon" 
                 />
             </div>
 

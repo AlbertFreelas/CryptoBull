@@ -6,11 +6,13 @@ import ThirdBlock from './components/pages/ThirdBlock/ThirdBlock';
 import FourthBlock from './components/pages/FourthBlock/FourthBlock';
 import FifthBlock from './components/pages/FifthBlock/FifthBlock';
 import SixthBlock from './components/pages/SixthBlock/SixthBlock';
+import ContactBlock from './components/pages/ContactComponent/ContactBlock';
 
 function App() {
   return (
     <div className="App">
       <body>
+      <ContactBlock/>
       <FirstBlock/>
       <SecondBlock/>
       <ThirdBlock/>

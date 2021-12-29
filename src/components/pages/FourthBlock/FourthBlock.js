@@ -39,7 +39,7 @@ function FourthBlock() {
                 <img 
                     src={vacines} 
                     style={{
-                        width: width * 0.25,
+                        width: width * 0.3,
                         marginTop: "3%"
                     }} 
                     alt="BullsCryptoVacines" 

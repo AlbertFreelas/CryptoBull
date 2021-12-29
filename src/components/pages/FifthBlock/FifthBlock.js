@@ -48,7 +48,7 @@ function FifthBlock() {
                     src={investitorsBulls} 
                     style={{
                         width: width * 0.65,
-                        marginTop: "4%"
+                        marginTop: "8%"
                     }} 
                     alt="BullsCryptoInvestorsBull" 
                 />

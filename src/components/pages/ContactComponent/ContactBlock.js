@@ -9,23 +9,37 @@ function ContactBlock() {
     const [width, setWidth] = useState(window.innerWidth)
     const [height, setHeight] = useState(window.innerHeight)
 
+    const [scrollPosition, setScrollPosition] = useState(0);
+    const contactBasePosition = window.innerHeight * 0.4
+
+    const handleScroll = () => {
+        const position = window.pageYOffset;
+        setScrollPosition(position);
+    };
+
     useEffect(() => {
+        window.addEventListener('scroll', handleScroll, { passive: true });
+
         window.addEventListener('resize', () => {
             setWidth(window.innerWidth)
             setHeight(window.innerHeight)
         });
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
     });
 
     return (
         <div style={{
             display: "flex",
             flexDirection: "column",
-            flex: "auto"
+            flex: "auto",
         }}>
             <div
             style={{
                 marginLeft: "3%",
-                marginTop: "20%",
+                marginTop: (contactBasePosition + scrollPosition),
                 position: "absolute",
                 justifyContent: "space-between"
             }}>

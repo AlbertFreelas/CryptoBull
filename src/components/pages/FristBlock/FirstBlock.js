@@ -49,13 +49,19 @@ function FirstBlock() {
                 style = {{
                     position:"absolute",
                 }}>
-                    <div>
+                    <div
+                        style={{
+                            width: 0.2 * width,
+                            marginTop: "8%",
+                            marginLeft: "380%",
+                            }}
+                        onClick={()=> window.open("https://bullscrypto.gitbook.io/bulls-crypto-whitepaper/", "_blank")}
+                    >
                         <img
                             src={withepapper} 
                             style={{
                                 width: 0.2 * width,
-                                marginTop: "8%",
-                                marginLeft: "380%",
+
                                 pointerEvents: "none"
                             }} 
                             alt="BullsCryptoBackground" 

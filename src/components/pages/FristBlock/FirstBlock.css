@@ -14,5 +14,6 @@
 }
 
 .ledStringDiv{
+    overflow: hidden;
     pointer-events: none;
 }

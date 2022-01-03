@@ -16,6 +16,7 @@
 
 .bottomLedStringDiv{
     pointer-events: none;
+    overflow: hidden;
 }
 
 .firstText {

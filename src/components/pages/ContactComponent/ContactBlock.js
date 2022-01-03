@@ -37,15 +37,15 @@ function ContactBlock() {
             flex: "auto",
         }}>
             <div
-            style={{
-                marginLeft: "3%",
-                marginTop: (contactBasePosition + scrollPosition),
-                position: "absolute",
-                justifyContent: "space-between"
-            }}>
-                <div
-                    onClick={()=> window.open("https://discord.gg/Jq2QcmH2", "_blank")}
-                >
+                style={{
+                    marginLeft: "3%",
+                    marginTop: (contactBasePosition + scrollPosition),
+                    position: "absolute",
+                    justifyContent: "space-between"
+                }}>
+                    <div
+                        onClick={()=> window.open("https://discord.gg/Jq2QcmH2", "_blank")}
+                    >
                     <img 
                         src={discord} 
                         style={{

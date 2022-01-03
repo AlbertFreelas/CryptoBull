@@ -1,5 +1,5 @@
 import React from 'react'
-import firstBackground from './../../../first-block/FUNDO-TELA01@2x.png'
+import firstBackground from './../../../first-block/FUNDO-TELA01.jpg'
 import ledBar from './../../../first-block/FUNDO-TELA02@2x.png'
 import ledString from './../../../first-block/FUNDO-TELA03@2x.png'
 import arm from './../../../first-block/FUNDO-TELA04@2x.png'
@@ -134,18 +134,6 @@ function FirstBlock() {
                         width: width,
                         pointerEvents: "none"
                     }} alt="BullsCryptoLedText" 
-                />
-                <img 
-                    src={arm} 
-                    className='armDiv' 
-                    style={{
-                        width: 0.09 * width,
-                        transform: "rotate(-4deg)",
-                        marginTop: "-8.3%",
-                        marginLeft: "-12.4%",
-                        position: "absolute",
-                        pointerEvents: "none"
-                    }} alt="BullsCryptoArm" 
                 />
             </div>
 

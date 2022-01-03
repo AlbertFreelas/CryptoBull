@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import FirstBlock from './components/pages/FristBlock/FirstBlock';
 import SecondBlock from './components/pages/SecondBlock/SecondBlock';
@@ -15,13 +14,13 @@ function App() {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
       </head>
       <body>
-      <ContactBlock/>
-      <FirstBlock/>
-      <SecondBlock/>
-      <ThirdBlock/>
-      <FourthBlock/>
-      <FifthBlock/>
-      <SixthBlock/>
+        <ContactBlock/>
+        <FirstBlock/>
+        <SecondBlock/>
+        <ThirdBlock/>
+        <FourthBlock/>
+        <FifthBlock/>
+        <SixthBlock/>
       </body>
     </div>
   );

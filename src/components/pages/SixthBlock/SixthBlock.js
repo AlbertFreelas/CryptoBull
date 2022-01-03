@@ -70,7 +70,7 @@ function SixthBlock() {
                     className='bottomLedStringDiv'
                     style={{
                         pointerEvents: "none",
-                        width: width,
+                        width: 0.5 * width,
                     }} 
                     alt="BullsCryptoLedBottom" 
                 />

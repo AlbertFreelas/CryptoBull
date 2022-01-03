@@ -1,25 +1,15 @@
-@keyframes App-led-slide {
+@keyframes App-led-last-slide {
     from {
-      transform: translateX(-100vw)
+      transform: translateX(-80vw)
     }
     to {
-      transform: translateX(100vw)
+      transform: translateX(80vw)
     }
   }
-
-  @keyframes App-first-slide {
-    from {
-      transform: translateX(100vw)
-    }
-    to {
-      transform: translateX(-0.5vw)
-    }
-  }
-
 
 @media (prefers-reduced-motion: no-preference) {
     .bottomLedStringDiv{
-        animation: App-led-slide infinite 8s linear;
+        animation: App-led-last-slide infinite 8s linear;
     }
 
 }

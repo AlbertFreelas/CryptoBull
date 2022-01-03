@@ -1,35 +1,18 @@
 @keyframes App-led-slide {
     from {
-      transform: translateX(-100vw)
+      transform: translateX(-80vw)
     }
     to {
-      transform: translateX(100vw)
+      transform: translateX(80vw)
     }
   }
-
-  @keyframes App-arm-rotate {
-    from {
-        transform: rotateY(-25deg)
-    }
-    to {
-        transform: rotateY(30deg);
-    }
-  }
-
 
 @media (prefers-reduced-motion: no-preference) {
     .ledStringDiv{
         animation: App-led-slide infinite 8s linear;
     }
-    .armDiv{
-        animation: App-arm-rotate infinite 3s linear;
-    }
 }
 
 .ledStringDiv{
-    pointer-events: none;
-}
-
-.armDiv{
     pointer-events: none;
 }
